@@ -1,0 +1,321 @@
+                                               {shk}I found you friend...{shk}
+
+# BITSY VERSION 7.2
+
+! ROOM_FORMAT 1
+
+PAL 0
+NAME Initial
+0,0,0
+2,255,105
+255,255,255
+
+PAL 2
+NAME palette02
+0,0,0
+6,184,83
+179,188,169
+
+PAL 3
+NAME palette03
+0,0,0
+4,131,59
+157,165,149
+
+PAL 4
+NAME palette04
+0,0,0
+2,71,32
+129,136,122
+
+ROOM 0
+b,a,a,a,b,b,b,c,b,c,a,a,c,a,b,c
+a,c,c,0,0,0,c,c,0,0,0,b,0,0,a,0
+a,b,0,c,a,0,0,c,0,0,0,c,0,0,0,b
+a,0,0,0,0,0,b,0,c,b,b,0,0,b,b,b
+a,0,c,b,b,c,b,0,0,c,c,a,0,0,c,0
+b,0,0,0,0,0,0,a,0,0,0,0,a,c,0,b
+c,0,0,b,0,0,c,0,c,b,c,0,0,c,c,b
+a,0,0,0,c,c,c,0,b,a,0,0,b,a,0,b
+c,c,b,0,0,c,0,0,c,0,b,0,a,0,c,a
+b,0,0,a,c,0,b,0,c,a,0,c,c,0,0,a
+a,0,0,b,0,0,c,0,0,a,0,0,c,a,b,a
+a,c,0,0,0,0,c,0,0,b,b,0,a,0,0,b
+b,0,b,c,0,a,a,a,c,0,c,a,a,c,a,a
+b,0,c,b,0,0,c,0,0,0,0,b,c,0,b,0
+b,0,0,0,b,b,0,0,c,c,0,0,0,b,b,a
+a,a,a,a,c,a,a,0,a,a,b,b,a,a,a,0
+NAME Starting room
+ITM 2 14,11
+EXT 15,4 1 0,4 FX tunnel DLG 4
+PAL 0
+
+ROOM 1
+b,a,a,a,b,a,a,b,a,b,b,b,a,b,a,a
+b,c,0,0,c,0,b,b,0,c,c,b,b,0,c,a
+b,0,c,b,0,0,c,0,a,0,0,c,0,b,0,b
+a,0,0,a,0,b,c,c,a,0,0,b,0,0,c,b
+0,c,0,0,c,b,c,0,0,c,0,0,c,0,b,b
+0,0,b,0,0,0,0,c,0,0,a,b,0,c,b,a
+c,b,c,0,b,0,b,0,c,c,b,0,0,b,c,a
+0,0,0,0,0,a,0,0,b,c,b,c,a,0,a,a
+b,b,b,c,a,c,0,b,c,0,0,0,0,c,c,b
+b,0,0,c,0,c,c,0,a,0,b,0,0,0,b,a
+b,c,0,0,b,0,0,a,0,0,0,0,b,c,a,b
+a,a,a,0,0,0,0,c,0,0,0,0,b,0,0,a
+0,b,0,c,0,b,a,0,0,a,0,c,b,0,0,b
+b,c,0,0,0,0,0,0,c,c,a,0,0,c,0,b
+a,c,a,a,a,0,c,a,b,b,a,0,c,0,0,a
+a,b,a,a,b,b,a,b,b,b,a,a,b,0,0,a
+NAME Forest right
+ITM 1 14,11
+EXT 14,15 2 14,0 FX tunnel DLG 5
+PAL 2
+
+ROOM 2
+a,a,b,b,b,c,a,a,a,b,0,a,a,a,0,b
+a,c,c,a,0,0,0,0,0,0,0,0,0,0,0,a
+b,0,c,a,0,c,0,0,c,0,0,0,c,a,0,b
+b,0,a,0,0,0,a,a,0,0,b,0,b,b,0,a
+a,0,c,0,a,0,0,0,a,0,b,0,0,c,0,b
+b,0,c,c,0,a,0,c,a,0,0,a,0,0,0,a
+c,0,0,0,0,0,0,b,0,a,0,c,0,a,c,b
+c,0,b,b,0,0,a,0,0,0,0,0,a,0,0,b
+a,b,0,0,0,0,0,c,b,a,a,0,0,b,c,a
+a,0,b,0,a,c,0,0,0,0,a,0,c,0,c,a
+0,0,b,c,a,a,b,0,0,c,0,0,0,0,b,b
+b,0,0,0,0,0,0,0,a,0,0,b,0,a,0,a
+0,0,a,a,0,c,0,c,0,a,0,c,0,c,c,a
+c,0,0,0,a,0,0,0,0,c,0,0,0,0,b,b
+b,0,0,0,c,c,0,a,a,0,0,c,b,0,a,c
+b,a,a,c,b,b,b,0,a,b,b,b,b,b,a,a
+NAME Forest down 
+ITM 2 3,13
+EXT 14,0 1 14,15 FX fade_b DLG 6
+EXT 0,10 3 15,10 FX fade_b DLG 9
+PAL 3
+
+ROOM 3
+b,a,b,b,b,a,b,0,a,b,b,a,b,a,b,b
+b,0,c,c,0,0,b,c,b,c,0,c,c,0,0,a
+a,c,c,b,c,0,a,0,a,0,0,c,0,b,0,a
+a,c,c,b,0,c,0,0,c,c,0,a,0,b,0,b
+a,c,b,c,0,c,c,0,0,0,a,c,0,0,0,c
+b,0,b,0,b,0,0,0,c,c,c,0,0,c,0,b
+b,0,0,c,0,b,0,0,0,a,c,0,a,0,c,b
+b,b,0,0,b,0,0,0,a,a,c,0,a,c,c,b
+b,0,c,0,0,0,c,c,0,a,0,a,0,0,0,c
+a,0,0,c,b,b,b,0,0,0,0,0,0,0,0,0
+a,b,0,0,b,c,c,c,b,0,c,0,0,0,c,0
+c,0,b,0,b,c,0,c,b,c,0,0,c,a,c,c
+c,0,0,c,b,c,c,c,b,c,0,0,0,0,b,c
+a,b,b,c,b,b,b,b,b,0,0,c,b,b,0,c
+b,0,c,b,0,0,0,0,0,c,c,0,a,c,c,b
+a,c,c,c,a,b,b,a,b,a,a,b,b,a,a,b
+NAME Forest left
+ITM 3 6,11
+EXT 7,0 0 7,15 FX tunnel DLG b
+PAL 4
+
+TIL a
+00000000
+00011000
+00111100
+01111110
+01111110
+00011000
+00011000
+00011000
+>
+00000000
+00011000
+00111100
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME Tree01
+WAL true
+
+TIL b
+00000000
+00010000
+00111000
+01111100
+11111110
+00010000
+00010000
+00010000
+NAME Tree02
+WAL true
+
+TIL c
+00000000
+00000000
+00000000
+00101001
+01010010
+10100100
+11111101
+11111110
+>
+00000000
+00000000
+00000000
+00010100
+00101001
+01010010
+01111110
+01111111
+NAME Grass
+
+SPR A
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+POS 0 1,6
+
+SPR a
+00000000
+00111110
+00111110
+01101011
+10111110
+00111110
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00111110
+00111110
+01101011
+10111110
+00000000
+NAME Ghost
+DLG 0
+POS 0 14,11
+
+SPR b
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME water
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG 2
+
+ITM 2
+00110000
+01011000
+01111000
+00110000
+00010000
+00001000
+00000100
+00000000
+NAME balloon
+DLG 3
+
+ITM 3
+00000000
+00000000
+00111100
+00111100
+00111111
+00000000
+00000000
+00000000
+NAME hat
+DLG 8
+
+DLG 0
+"""
+{
+  - {item "4"} == 0 ?
+    {shk}Hello John... Can you help me find what is lost... And I can get you home...{shk}
+    {pg}
+    {item "4" 1}
+  - else ?
+    ...
+}{
+  - {item "3"} >= 1 ?
+    {shk}Good... You found everything... {shk}
+    {pg}
+    {shk}Now the only thing missing is you (*stab *stab){shk}{wvy}Aaaaaaaaaahhhhhhhh{wvy}
+    {end}
+  - else ?
+    {printSprite "a"} {shk}WHERE ARE MY THINGS!!!!! GO GET THEM!!!!{shk}
+}
+"""
+NAME Ghost dialog
+
+DLG 2
+"""
+A key! {wvy}Is this what he was referring too?{wvy}
+{item "0" 1}
+"""
+NAME key dialog
+
+DLG 3
+"""
+A balloon??? {wvy}Maybe this is what it wanted?{wvy}
+{item "2" 1}
+"""
+NAME balloon dialog
+
+DLG 4
+I wonder what he needs???
+NAME exit narration 1
+
+DLG 5
+What else does he need???
+NAME exit narration 2
+
+DLG 6
+What else does he need???
+NAME exit narration 3
+
+DLG 8
+"""
+A hat???{shk} What does all of this mean??? Where is he? I want to go home!?!{shk}
+{item "3" 1}
+"""
+NAME hat dialogue
+
+DLG 9
+{shk}This is getting creepy... Why is it getting so dark???{shk}
+NAME exit narration 4
+
+DLG a
+Finally!!! Daylight!
+NAME exit narration 5
+
+DLG b
+Finally!!! Daylight!
+NAME exit narration 6
+
+VAR a
+42
+
